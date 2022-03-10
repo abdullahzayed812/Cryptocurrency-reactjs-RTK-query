@@ -1,0 +1,63 @@
+.dorpdown-container {
+  width: 200px;
+  position: absolute;
+  transform: translateY(-14px);
+}
+.control {
+  position: relative;
+}
+.control input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  outline: none;
+  border: 1px solid #ccc;
+  background-color: white;
+  transition: 0.2s;
+  border-radius: 4px;
+}
+.control input[type="text"]:focus {
+  outline: 1px solid #1a90ff;
+}
+.arrow-icon,
+.search-icon {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+.search-icon {
+  right: 10px;
+}
+.arrow-icon {
+  font-size: 25px;
+}
+.options-box {
+  width: 100%;
+  max-height: 350px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  margin-top: 2px;
+  background-color: white;
+  display: none;
+}
+.options-box::-webkit-scrollbar {
+  width: 10px;
+}
+.options-box::-webkit-scrollbar-thumb {
+  background-color: rgb(185, 183, 183);
+  border-radius: 5px;
+}
+.options-box.open {
+  display: block;
+}
+.option {
+  padding: 10px;
+  margin-bottom: 2px;
+  color: #777;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.option:hover {
+  background-color: #ccc;
+}

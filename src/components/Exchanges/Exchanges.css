@@ -1,0 +1,37 @@
+.exchanges-container {
+  padding: 10px;
+}
+.exchanges-header {
+  display: flex;
+  flex-wrap: wrap;
+}
+.exchanges-header > div {
+  width: 25%;
+  color: #333;
+  font-size: 14px;
+}
+.tab {
+  border: 1px solid #999;
+}
+.tab-header {
+  display: flex;
+  padding: 10px;
+  border-bottom: 1px solid #999;
+  background-color: #fbfafb;
+  cursor: pointer;
+}
+.tab-header > div {
+  width: 25%;
+  color: #333;
+}
+.tab-content {
+  background-color: white;
+  padding: 0;
+  height: 0;
+  transition: 0.4s;
+  overflow: hidden;
+}
+.tab-content.open {
+  height: auto;
+  padding: 10px;
+}

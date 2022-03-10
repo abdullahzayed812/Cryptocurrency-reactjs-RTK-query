@@ -1,0 +1,39 @@
+.main-header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #001327;
+  max-height: 72px;
+}
+.logo-moblie-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  padding: 20px;
+}
+.logo-moblie-container img {
+  max-width: 50px;
+  max-height: 50px;
+}
+.logo-moblie-container h2 {
+  font-size: 25px;
+  color: #3578cb;
+}
+.mobile-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background-color: #001327
+}
+.mobile-nav-link {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

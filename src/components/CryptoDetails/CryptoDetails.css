@@ -1,0 +1,111 @@
+.coin-detail-container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.coin-heading-container {
+  margin-bottom: 20px;
+}
+.coin-name {
+  font-size: 40px;
+  color: #1a90ff;
+  text-align: center;
+  text-decoration: uppercase;
+}
+.coin-heading-container p {
+  color: #777;
+  text-align: center;
+  margin: 20px 0;
+}
+.stats-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.stats-coin-value,
+.stats-other {
+  width: 340px;
+}
+.stats-value-heading {
+  font-size: 25px;
+}
+.stats-value-text {
+  color: #777;
+  margin: 20px 0;
+}
+.stats-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 15px;
+  border-bottom: 1px solid #ccc;
+  transition: 0.3s;
+}
+.stats-list-item:hover {
+  background-color: white;
+}
+.stats-list-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  color: #777;
+}
+.stats-list-price {
+  font-weight: bold;
+  font-size: 18px;
+}
+.coin-desc-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+.questions {
+  width: 50%;
+}
+.desc-title {
+  font-size: 25px;
+  font-weight: bold;
+  color: #1a90ff;
+  margin-bottom: 10px;
+}
+h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
+  color: #333;
+}
+.questions p {
+  max-width: 100%;
+  line-height: 1.5;
+  font-size: 18px;
+  color: #1a90ff;
+  margin-bottom: 30px;
+}
+.coin-links-container {
+  width: 50%;
+}
+.coin-links-heading {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.coin-links-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 15px;
+  border-bottom: 1px solid #ccc;
+  transition: 0.3s;
+}
+.coin-links-item:hover {
+  background-color: white;
+}
+.coin-link-type {
+  color: #333;
+  font-size: 18px;
+}
+.coin-link-name {
+  color: #1a90ff;
+  font-size: 18px;
+  font-weight: bold;
+}
